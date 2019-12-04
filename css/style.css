@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+
+
+html{
+    background-color: black;
+    font-family: raleway;
+    width: 1000px;
+    height: 800px;
+}
+
+.buttonR {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20%;
+}
+
+    a {
+        padding: 15px 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        margin: 1em;
+    }
+
+    a:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+    }
+
+.btn-2 {
+	color: black;
+	background-color: teal;
+	transition: .2s ease-in-out;
+	border-left: 3px transparent solid;
+	border-right: 3px transparent solid;
+}
+
+.btn-2:hover {
+	color: teal;
+	background-color: black;
+	border-left: teal 3px solid;
+	border-right: teal 3px solid;
+}
+
+
+
+.playerTurn , h2 , h1{
+    color: #bdc3c7;
+    display: flex;
+    margin-left: 63%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color:black;
+    margin-left: 40%;
+    
+    /* height: 530px;
+    width: 700px;
+    margin-left: 50%; */
+}
+
+
+.column1{
+display: flex; 
+flex-wrap: wrap;
+flex-direction: column; 
+justify-content: space-between; 
+height: 500px;
+   
+}
+
+.c1{
+    border: 4px solid #bdc3c7;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 20px;    
+
+}
+
+.column2{
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 500px;
+    margin-left: 50px;
+    
+}
+
+.c2{
+    border: 4px solid #bdc3c7;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;    
+
+}
+
+
+
+.column3{
+  
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 500px;
+    margin-left: 50px;
+}
+
+.c3{
+
+    border: 4px solid #bdc3c7;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;    
+
+}
+
+.column4{
+  
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 500px;
+}
+
+
+.c4{
+    border: 4px solid #bdc3c7;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 20px;    
+
+}
+
+
+.red{
+    background-color: rgb(94, 4, 27);
+
+}
+
+.blue{
+    background-color:teal;
+}
